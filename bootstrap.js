@@ -37,27 +37,27 @@ const app = new Vue({
 		postlist: [
 			// constructed Post item
 			new Post(
-				'First Post! Yay!', 		// this is the TITLE place in the class
-				'https://google.com',	// this is the LINK place in the class
-				'An Author',			// this is the AUTHOR place in the class
-				'https://unsplash.it/200',	// this is the IMAGE place in the class
-				'Lorem ipsum dolor sit amet, consectetur.' // this is the BODY place in the class
+				'KoALA', 		// this is the TITLE place in the class
+				'https://en.wikipedia.org/wiki/Koala',	// this is the LINK place in the class
+				'grace white',			// this is the AUTHOR place in the class
+				'https://s-media-cache-ak0.pinimg.com/564x/bc/96/38/bc9638a1d39eeeccf627475b33bc92cd.jpg',	// this is the IMAGE place in the class
+				'The koala is an arboreal herbivorous marsupial native to Australia. It is the only extant representative of the family Phascolarctidae and its closest living relatives are the wombats.' // this is the BODY place in the class
 				),
 
 			new Post(
-				'Second Post: Lorem',
-				'https://vuejs.org',
-				'Sammie Author',
-				'img-200.jpg', // this is a local image in the same folder as the js script
-				'This has a local image. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra euismod euismod. Nulla leo est, venenatis at fringilla eget, tincidunt sed justo. In efficitur dui odio, sit amet finibus sem hendrerit ut. Etiam vestibulum sem vel metus lobortis, vitae dictum metus sagittis. Nulla facilisi. '
+				'Koala memes',
+				'https://www.memecenter.com/search/koala',
+				'grace white',
+				'http://s2.quickmeme.com/img/85/85ae14997309eafabd04e8a1de138aaee1e64e42872b78938cef06d75fb0eb67.jpg', // this is a local image in the same folder as the js script
+				'koala memes r really good.'
 				),
 
 			new Post(
-				'This Post: Crazy Fredrick',
-				'https://google.com',
-				'Bob Author',
-				'https://unsplash.it/200',
-				'Crazy Fredrick bought many very exquisite opal jewels.'
+				'Adopt A koala? heck ya',
+				'https://www.savethekoala.com/adopt-a-koala',
+				'grace white',
+				'https://s-media-cache-ak0.pinimg.com/originals/5b/10/c7/5b10c750eb00fe694cd2440c68b98750.jpg',
+				'koala\'s are loveable as heck! perfect pet!'
 				),
 
 			new Post(
